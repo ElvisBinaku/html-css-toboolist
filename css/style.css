@@ -17,30 +17,41 @@ header{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-
 }
 
 .backgroundgray{
     background-color: #f6f8fa;
 }
+
 .marginmain{
-    margin: 20px 100px;
+    margin: 20px 10%;
+    background-color: white;
+    padding:20px 5px;
 }
+
 .paddingsection{
     padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.paddingtop{
+    padding:20px;
+}
+
 .button{
-    padding: 5px 10px;
-    border: 2px;
+    padding: 6px 12px;
+    border: solid 2px;
     border-radius: 5px;
     font-size: 14px;
     margin: 2px;
 }
+
 .bluebutton{
     background-color:#45abf0;
     color: white;
     border-color:#3ba3e9;
 }
+
 .whitebutton{
     background-color: white;
     color: #d6d6d6;
