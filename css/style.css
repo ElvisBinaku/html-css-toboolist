@@ -29,9 +29,15 @@ header{
     padding:20px 5px;
 }
 
-.paddingsection{
+.headersection{
     padding-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paddingsection{
+    padding-left: 20px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .paddingtop{
@@ -56,4 +62,18 @@ header{
     background-color: white;
     color: #d6d6d6;
     border-color: #d6d6d6;
+}
+.cerchioverde{
+    color: green;
+}
+.cerchiorosso{
+    color: red;
+}
+
+.icon{
+    
+}
+
+.blueicon{
+    
 }
