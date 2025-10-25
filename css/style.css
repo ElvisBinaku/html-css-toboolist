@@ -24,15 +24,16 @@ header{
 }
 
 .marginmain{
-    margin: 20px 10%;
+    margin: 0px 10%;
     background-color: white;
     padding:20px 5px;
+    border-radius: 20px;
 }
 
 .headersection{
     padding-left: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .paddingsection{
@@ -40,8 +41,13 @@ header{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.paddingtop p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 .paddingtop{
-    padding:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .button{
@@ -56,12 +62,14 @@ header{
     background-color:#45abf0;
     color: white;
     border-color:#3ba3e9;
+    cursor: pointer;
 }
 
 .whitebutton{
     background-color: white;
-    color: #d6d6d6;
+    color: #c6c6c6;
     border-color: #d6d6d6;
+    cursor: pointer;
 }
 .cerchioverde{
     font-size: 14px;
@@ -73,6 +81,7 @@ header{
     height: 20px;
     text-align: center;
     line-height: 20px;
+    margin: 5px 5px 5px 0px;
 
 }
 .cerchiorosso{
@@ -85,12 +94,62 @@ header{
     height: 20px;
     text-align: center;
     line-height: 20px;
+    margin: 5px 5px 5px 0px;
 }
 
 .icon{
-    
+    border-radius: 15px;
+    display: inline-block;
+    padding: 8px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
 }
 
 .blueicon{
-    
+    background-color: #3ba3e9;
+    color: white;
 }
+
+.violeticon{
+    background-color: #9b75e2;
+    color: white;
+}
+
+.greenicon{
+    background-color: #55ad9d;
+    color: white;
+}
+
+.orangeicon{
+    background-color: #e4a134;
+    color: white;
+}
+
+.magentaicon{
+    background-color: #e255ae;
+    color: white;
+}
+
+.limeicon{
+    background-color: #b7d016;
+    color: white;
+}
+
+.fonthel{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.line{
+    margin-bottom: 10px;
+    border:solid 1px #d6d6d6;
+    padding: 0px 3px 0px 3px;
+    display: block;
+    margin: 0px 30px 0px 5px;
+} 
