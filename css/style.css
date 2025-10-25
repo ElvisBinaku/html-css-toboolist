@@ -64,10 +64,27 @@ header{
     border-color: #d6d6d6;
 }
 .cerchioverde{
+    font-size: 14px;
     color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+
 }
 .cerchiorosso{
+    font-size: 14px;
     color: red;
+    border: solid 1px red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .icon{
