@@ -9,9 +9,40 @@ header{
 }
 
 .logo {
-    padding: 20px;
+    padding: 10px;
 }
 
 .logotipo {
-    width: 400px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.backgroundgray{
+    background-color: #f6f8fa;
+}
+.marginmain{
+    margin: 20px 100px;
+}
+.paddingsection{
+    padding-left: 20px;
+}
+.button{
+    padding: 5px 10px;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 2px;
+}
+.bluebutton{
+    background-color:#45abf0;
+    color: white;
+    border-color:#3ba3e9;
+}
+.whitebutton{
+    background-color: white;
+    color: #d6d6d6;
+    border-color: #d6d6d6;
 }
