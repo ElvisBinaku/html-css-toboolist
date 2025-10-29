@@ -8,11 +8,11 @@ header{
     background-color: white;
 }
 
-.logo {
-    padding: 10px;
+.mainlogo {
+    padding: 10px 20px;
 }
 
-.logotipo {
+.section-logo {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,16 +30,15 @@ header{
     border-radius: 20px;
 }
 
-.headersection{
+.taskbar{
     padding-left: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.paddingsection{
+.todosection{
     padding-left: 20px;
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 .paddingtop p {
     padding-top: 5px;
@@ -58,46 +57,44 @@ header{
     margin: 2px;
 }
 
-.bluebutton{
+.lightbutton{
     background-color:#45abf0;
     color: white;
     border-color:#3ba3e9;
     cursor: pointer;
 }
 
-.whitebutton{
+.primarybutton{
     background-color: white;
     color: #c6c6c6;
     border-color: #d6d6d6;
     cursor: pointer;
 }
-.cerchioverde{
+
+.check{
     font-size: 14px;
+    color: black;
+    border: solid 1px black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px 5px 5px 0px;
+
+}
+
+.done{
     color: green;
     border: solid 1px green;
-    border-radius: 50%;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    margin: 5px 5px 5px 0px;
-
 }
-.cerchiorosso{
-    font-size: 14px;
+.undone{
     color: red;
     border: solid 1px red;
-    border-radius: 50%;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    margin: 5px 5px 5px 0px;
 }
 
-.icon{
+.primarytag{
     border-radius: 15px;
     display: inline-block;
     padding: 8px;
@@ -106,32 +103,32 @@ header{
     margin: 0px 10px;
 }
 
-.blueicon{
+.editorial-tag{
     background-color: #3ba3e9;
     color: white;
 }
 
-.violeticon{
+.Q1-Goals-tag{
     background-color: #9b75e2;
     color: white;
 }
 
-.greenicon{
+.recruiting-tag{
     background-color: #55ad9d;
     color: white;
 }
 
-.orangeicon{
+.mobile-tag{
     background-color: #e4a134;
     color: white;
 }
 
-.magentaicon{
+.website-tag{
     background-color: #e255ae;
     color: white;
 }
 
-.limeicon{
+.sales-tag{
     background-color: #b7d016;
     color: white;
 }
